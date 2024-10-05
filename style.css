@@ -1,0 +1,40 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+.bg-primary, .btn-primary {
+    background: #a40abc !important;
+}
+.btn-primary {
+    border-color: #b83dcb;
+    &:hover {
+        border-color: #a40abc;
+    }
+    &:focus {
+        border-color: #a40abc !important;
+    }
+    &:active {
+        border-color: #a40abc !important;
+    }
+}
+
+.text-primary {
+    color: #a40abc !important;
+}
+
+.text-bg-primary {
+    background-color: #a40abc !important;
+    color: white;
+}
+
+.form-control {
+    &:focus {
+        box-shadow: 0 0 0 .25rem #a40abc22;
+        border-color: #a40abc !important;
+    }
+}
+
+.icon-link {
+    color: #a40abc;
+}
