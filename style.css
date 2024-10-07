@@ -38,3 +38,13 @@
 .icon-link {
     color: #a40abc;
 }
+
+.active>.page-link, .page-link.active {
+    background-color: #a40abc !important;
+    border-color: #b83dcb;
+    color: white !important;
+}
+
+.page-link {
+    color: #a40abc !important;
+}
